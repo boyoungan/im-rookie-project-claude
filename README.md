@@ -8,7 +8,7 @@
 - 회사 정책 문서를 RAG(Retrieval-Augmented Generation) 기술로 처리
 - Gemini LLM이 자동으로 다중선택 퀴즈 생성
 - ChromaDB를 통한 빠른 유사도 검색
-- 5가지 부서별 정책 기반 퀴즈 (IT, 영업, 준법감시, 인사, 마케팅)
+- 6가지 부서별 정책 기반 퀴즈 (IT, 영업, 준법감시, 인사, 마케팅, 전략기획)
 
 ### 2️⃣ **MRO 자동화 (MRO Automation)**
 - Playwright를 이용한 RPA(Robotic Process Automation)
@@ -178,7 +178,8 @@ im-rookie-project-claude/
 │   │   ├── HR_rules.txt
 │   │   ├── Sales_rules.txt
 │   │   ├── Compliance_rules.txt
-│   │   └── Marketing_rules.txt
+│   │   ├── Marketing_rules.txt
+│   │   └── Strategy_rules.txt
 │   └── static/
 │       ├── mro_mock.html        # Mock 구매 포탈
 │       └── mro_screenshots/     # RPA 스크린샷
@@ -218,6 +219,7 @@ im-rookie-project-claude/
 - `HR` — 인사 부서
 - `Compliance` — 준법감시 부서
 - `Marketing` — 마케팅 부서
+- `Strategy` — 전략기획 부서
 
 ---
 
